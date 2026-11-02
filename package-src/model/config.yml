@@ -18,7 +18,6 @@ features:
   - Total_Trans_Ct
   - Total_Trans_Amt
   - Months_Inactive_12_mon
-  - Contacts_Count_12_mon
 
 temp_features:
  - Gender
@@ -31,6 +30,7 @@ temp_features:
  - Credit_Limit
  - Avg_Open_To_Buy
  - Avg_Utilization_Ratio
+ - Contacts_Count_12_mon
 
 # pipelines
 pipeline_name: modelo-abandono
